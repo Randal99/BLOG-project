@@ -1,0 +1,303 @@
+.header-img {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+
+}
+
+
+
+li {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+    padding: 3;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid black;
+    border-radius: 25px;
+    float: right;
+    font-size: 30px;
+    
+
+
+}
+
+ul:hover{
+    color: yellowgreen;
+}
+
+
+
+.container {
+
+    width: auto;
+    margin: 0 auto;
+
+
+}
+
+.gallery {
+    background-color: rgb(39, 38, 38);
+    align-content: center;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+
+}
+
+
+.gallery img {
+    width: 200px;
+    padding: 3px;
+
+
+}
+
+
+/*  .galleryrow {
+display: flex;
+justify-content: space-between;
+padding: 5px;
+}
+
+
+.gallerycolumn {
+flex: 50%;
+max-width: 100%;
+padding: 1px;
+}
+
+.gallerycolumn img {
+margin-top: 2px;
+vertical-align: middle;
+width: 100%;
+}
+*/
+
+.blog-entry {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.blog-entry p,
+span,
+a {
+    color: aliceblue;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.leftcolumn {
+    width: 65vw;
+
+    padding: 1px;
+    margin: 1px;
+}
+
+/* Right column */
+.rightcolumn {
+    width: 30vw;
+    ;
+    padding: 2px;
+    margin: 2px;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: end;
+}
+
+.content-desc {
+    width: 150px;
+}
+
+.rightcolumn h2{
+    color: white;
+    background-color: rgb(39, 38, 38);
+    border: 2px solib black;
+    border-radius: 25px;
+    background-color: rgb(39, 38, 38) color white;
+    text-align: end;
+    padding-right: 30px;
+    
+}
+
+.rightcolumn h2:hover{
+    background-color: yellowgreen;
+}
+
+.aboutinfo {
+    color: aliceblue;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+
+}
+
+.bg {
+    /* The image used */
+    background-image: url("gallaxy.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+footer{
+    color: aliceblue;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+
+h1{
+    color: aliceblue;
+    font-size: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+@media only screen and (max-width:480px){
+    .blog-entry {
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        background-color: rgb(39, 38, 38);
+        border: 2px solid black;
+        border-radius: 25px;
+        padding: 20px;
+        margin: 5px;
+    }
+    
+    .blog-entry p,
+    span,
+    a {
+        color: aliceblue;
+    }
+    
+    .columns {
+        display: flex;
+        flex-direction: row;
+    
+    
+    }
+    
+    .leftcolumn {
+        width: 65vw;
+    
+        padding: 1px;
+        margin: 1px;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+        width: 30vw;
+        ;
+        padding: 2px;
+        margin: 2px;
+    }
+    
+    .content-box {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: end;
+    }
+    
+    .content-desc {
+        width: 150px;
+    }
+    
+    .rightcolumn h2{
+        color: white;
+        background-color: rgb(39, 38, 38);
+        border: 2px solib black;
+        border-radius: 25px;
+        background-color: rgb(39, 38, 38) color white;
+        text-align: end;
+        padding-right: 30px;
+        
+    }
+    
+    .rightcolumn h2:hover{
+        background-color: yellowgreen;
+    }
+    
+    .aboutinfo {
+        color: aliceblue;
+        background-color: rgb(39, 38, 38);
+        border: 2px solid black;
+        border-radius: 25px;
+        padding: 20px;
+        margin: 5px;
+        font-size: 20px;
+    
+    }
+    .container {
+
+        width: auto;
+        margin: 0 auto;
+    
+    
+    }
+    
+    .gallery {
+        background-color: rgb(39, 38, 38);
+        align-content: center;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 25px;
+    
+    
+    }
+    
+    
+    .gallery img {
+        width: 200px;
+        padding: 3px;
+    
+    
+    }
+
+    .h1{
+
+    }
+
+
+
+
+}
